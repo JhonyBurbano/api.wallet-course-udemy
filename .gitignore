@@ -1,0 +1,10 @@
+node_modules/
+dist/
+package-lock.json
+# ignore all logs
+*.log
+build
+npm-debug.log
+.nyc
+*.env
+*.DS_Store
