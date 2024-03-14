@@ -5,5 +5,6 @@ export default createPool({
   user: process.env.db_mysql_user,
   password: process.env.db_mysql_password,
   database: process.env.db_mysql_database,
+  port: 3307,
   decimalNumbers: true,
 });
