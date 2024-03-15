@@ -4,7 +4,7 @@ import { DELETE, GET, POST, PUT, route } from "awilix-express";
 import { BaseController } from "../common/controllers/base.controller";
 
 @route("/subscription")
-export class DefaultController extends BaseController {
+export class SubscriptionController extends BaseController {
   constructor(private readonly subscriptionService: SubscriptionService) {
     super();
   }
